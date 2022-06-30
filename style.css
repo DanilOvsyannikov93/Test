@@ -5,7 +5,6 @@
     font-style: normal;
     font-weight: 400;
 }
-<style>
 body {
     font-family: "ValueSansPro-Italic", sans-serif;
     margin: 0;
@@ -38,20 +37,10 @@ body {
 .number {
     font-weight: 700;
 }
-
-</style>
-
-  .image {
+.image {
       display: block;
       width: 17.19px;
       height: 21.94px;
       object-fit: cover;
       object-position: 1.56px top;
-  }
-  .image1 {
-      display: block;
-      width: 7.81px;
-      height: 7.81px;
-      object-fit: cover;
-      object-position: 6.25px top;
-  }
+}
