@@ -4,9 +4,54 @@
     url("/fonts/ValueSansPro-Italic.woff") format("woff");
     font-style: normal;
     font-weight: 400;
+}
+<style>
+body {
+    font-family: "ValueSansPro-Italic", sans-serif;
+    margin: 0;
+    font-weight: 400;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EDEBE9;
+    padding: 0 4%;
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EDEBE9;
+    padding: 0 4%;
+}
+.item {
+    font-size: 16px;
+}
+.list {
+    display: flex;
+    list-style: none;
+}
+.list li {
+    margin-left: 20px;
+}
+.number {
+    font-weight: 700;
+}
+
+</style>
+
+  .image {
+      display: block;
+      width: 17.19px;
+      height: 21.94px;
+      object-fit: cover;
+      object-position: 1.56px top;
   }
-    body {
-        font-family: "ValueSansPro-Italic", sans-serif;
-        font-size: normal;
-        font-weight: 400;
-    }
+  .image1 {
+      display: block;
+      width: 7.81px;
+      height: 7.81px;
+      object-fit: cover;
+      object-position: 6.25px top;
+  }
