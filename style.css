@@ -116,3 +116,28 @@ body {
     margin-right: 4%;
     margin-left: 4%;
 }
+
+.value {
+    position: relative;
+    
+    
+    
+    
+}
+
+
+
+.top {
+    position: absolute;
+}
+
+.front {
+    position: absolute;
+    right: 0;
+    bottom: 200px;
+}
+.sofa {
+    position: relative;
+    right: 50;
+    bottom: 350px;
+}
