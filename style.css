@@ -5,6 +5,15 @@
     font-style: normal;
     font-weight: 400;
 }
+
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("/fonts/gothampro.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
 body {
     font-family: "ValueSansPro-Italic", sans-serif;
     margin: 0;
@@ -55,4 +64,55 @@ body {
     margin-top: 70px;
     margin-left: 397px;
     border-radius: 71px;
+}
+
+.search-block {
+    display: flex;
+    padding: 0 80px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.search-block__image {
+    width: 224px;
+    height: 50px;
+}
+
+.search-line {
+    position: relative;
+    width: calc(100% - 224px);
+    margin-left: 15%;
+}
+
+.element__search {
+    width: 100%;
+    padding: 17px 30px;
+    border: 2px solid #8B4795;
+    border-radius: 71px;
+    outline: none;
+    font-size: 16px;
+}
+
+.element__search-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.button__icon {
+    padding: 0px 15px;
+    width: ;
+    height: ;
+
+}
+
+.sections {
+    font-family: "Gotham Pro", sans-serif;
+    display: flex;
+    list-style: none;
+    height: 30px;
+    justify-content: space-between;
+    margin-right: 4%;
+    margin-left: 4%;
 }
